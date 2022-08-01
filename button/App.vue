@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="home">我是首页</div>
+    <!-- native可以将组件上的原生事件作用于组件的根节点 -->
     <packButton type="primary" size="middle" @click="handle1">按钮1</packButton>
     <packButton type="success" size="small" @click="handle2">按钮2</packButton>
     <packButton type="warning" size="mini" @click="handle3">按钮3</packButton>

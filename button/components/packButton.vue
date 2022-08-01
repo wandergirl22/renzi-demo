@@ -2,7 +2,7 @@
   <!-- 前缀+变量 -->
   <button @click="handleClick" :class="this.btnClasses.join('')">
     <!-- {{ this.$slots.defaults }} -->
-    <!-- <slot></slot> -->
+    <slot></slot>
   </button>
 </template>
 
